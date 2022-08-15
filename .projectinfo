@@ -1,0 +1,1 @@
+{"project":"gzip","type":"","version":" 1.10-4","hierarchy":"base","priority":"","maintainer":"","packager":"","builddeps":" debhelper (\u003e= 11), texinfo, autoconf, automake, less,  mingw-w64","homepage":" https://www.gnu.org/software/gzip/","git":"https://git.savannah.gnu.org/git/gzip.git/"}
