@@ -105,7 +105,11 @@ clean:
 	-rm -rf builddir builddir-indep
 	dh_clean
 
+ifeq (sw_64, $(DEB_BUILD_ARCH))
+binary: binary-arch
+else
 binary: binary-arch binary-indep
+endif
 
 binary-indep: build-indep-stamp
 	dh_testdir

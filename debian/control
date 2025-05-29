@@ -3,7 +3,7 @@ Section: utils
 Priority: required
 Maintainer: Deepin Developer <deepin-dev@deepin.org>
 Build-Depends: debhelper (>= 11), texinfo, autoconf, automake, less
-Build-Depends-Indep: mingw-w64
+Build-Depends-Indep: mingw-w64 [!sw64]
 Rules-Requires-Root: no
 Standards-Version: 4.6.0
 #Vcs-Git
