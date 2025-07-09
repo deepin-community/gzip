@@ -1,5 +1,6 @@
 gzip (1.12-deepin1) unstable; urgency=medium
 
+  * feat: add sw64 support.
 
  -- hudeng <hudeng@deepin.org>  Thu, 29 May 2025 15:49:48 +0800
 
