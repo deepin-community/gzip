@@ -1,3 +1,13 @@
+gzip (1.13-1deepin1) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-41992 (medium) - gzip: don't mishandle .lzh after
+    .Z (better fix)   Upstream:
+    https://git.savannah.gnu.org/cgit/gzip.git/commit/?id=63dbf6b3b9e6e7
+    81df1a6a64e609b10e23969681,https://git.savannah.gnu.org/cgit/gzip.gi
+    t/commit/?id=e7378c2d421be6a286922374425680bbe9ad8b7d
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 10 Sep 2026 21:15:45 +0800
+
 gzip (1.13-1) sid; urgency=medium
 
   [ Milan Kupcevic ]
