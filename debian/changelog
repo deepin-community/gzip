@@ -1,3 +1,12 @@
+gzip (1.13-1deepin1) unstable; urgency=medium
+
+  * fix(cve): CVE-2026-41991 (low) - gzexe: use -C if lacking mktemp
+    Upstream:
+    https://git.savannah.gnu.org/cgit/gzip.git/commit/?id=4e6f8b24ab8231
+    46ab8776f0b7fe486ab34d4269
+
+ -- deepin-ci-robot <packages@deepin.org>  Sat, 12 Sep 2026 01:21:59 +0800
+
 gzip (1.13-1) sid; urgency=medium
 
   [ Milan Kupcevic ]
